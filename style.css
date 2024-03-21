@@ -1,0 +1,62 @@
+:root {
+  --primary: #f9bc60;
+  --bg: #004643;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif, !important;
+  background-color: var(--bg);
+  color: #FFFFFE;
+}
+
+.navbar {
+  background-color: #f9bc60;
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link {
+  color: #001e1d;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.jumbotron {
+ padding: 2rem 1rem;
+}
+.card-body {
+  background-color: #f9bc60 !important;
+}
+
+.btn:hover {
+  color: #001e1d;
+}
+
+/* galeri */
+.gallery{
+	background-color: #f9bc60;
+	padding: 80px 0;
+}
+.gallery img{
+	background-color: #f9bc60;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+
